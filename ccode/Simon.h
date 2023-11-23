@@ -9,6 +9,7 @@
 
 #include <stdio.h>
 #include <stdint.h>
+#include <string.h>
 
 void simon_key_schedule(uint8_t* key, uint8_t* round_keys);
 void simon_encrypt(int round, uint8_t* round_keys, uint8_t* x, uint8_t* y);
